@@ -1,4 +1,4 @@
-# BurnBootloaderOfArduinoUnoUsingUSBASP
+# Burn Bootloader of Arduino Uno(any baord) Using USBASP
 
 
 Introduction : Arduino Bootloader.
