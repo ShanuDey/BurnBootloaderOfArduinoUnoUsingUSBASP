@@ -1,7 +1,7 @@
 # Burn Bootloader of Arduino Uno(any baord) Using USBASP
 
 
-#Introduction : Arduino Bootloader.
+Introduction : Arduino Bootloader
 
 If you are building your own Arduino, or need to replace the microcontroller of your arduino board you have to burn bootloader before using your chip with Arduino IDE.
 Atmel AVRs are great little ICs, but they can be a bit tricky to program. You need a special programmer and some fancy .hex files, and its not very beginner friendly. The Arduino has largely done away with these issues. They’ve put a .hex file on their AVR chips that allows you to program the board over the serial port, meaning all you need to program your Arduino is a USB cable.
@@ -9,7 +9,7 @@ The bootloader is basically a .hex file that runs when you turn on the board. It
 
  
 
-#Requirement:
+Requirement:
 
 1. USBASP Programmer.
 
@@ -19,7 +19,7 @@ The bootloader is basically a .hex file that runs when you turn on the board. It
 
  
 ******************************************************************************
-#Hardware Setup:
+Hardware Setup:
 
 Connect arduino uno isp pins with usbasp
 take help of the arduino uno isp pinout
@@ -33,7 +33,7 @@ MISO --> MISO
 Note: keep the Jumper (J1) always connected. [for the USBASP which have jumper J1]
 
 ************************************************************************************
-#Uploading Bootloader:
+Uploading Bootloader:
 
 Fix your new microcontroller (Atmega 328 for Arduino UNO) in your Arduino Board. Open ArduinoIDE.
 open tools menu in ardruino ide and 
